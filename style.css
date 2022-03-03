@@ -1,0 +1,115 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.navigation ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.navigation li{
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 20px;
+
+}
+.navigation li.logo{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.donate{
+    visibility: hidden;
+}
+ #banner{
+    background-image:url("landscape_meadow_nature_216362.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+    border-top: 4px solid red;
+    border-bottom: 4px solid red;
+}
+#banner .content h1{
+    border: 3px solid white;
+    position: relative;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+#main{
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+    height: 1000px;
+    overflow: scroll;
+}
+h1{
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+}
+h2{
+    border: 1px dotted red;
+    color: red;
+    font-size: 14px;
+    line-height: 48px;
+    padding: 20px 30px;
+    margin: 30px 20px ;
+    text-align:center ;
+}
+h3{
+    color: red;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 10px;
+}
+.p{
+    color: grey;
+    font-size: 16px;
+    line-height: 48px;
+    margin-top: 60px;
+    padding: 10px 20px;
+    
+}
+.pull-quote{
+    margin: 0 auto;
+    width: 400px;
+}
+.byline{
+    border-bottom: 1 px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    color: darkgrey;
+    font-size: 14px;
+    font-weight: 200;
+}
+.share{
+    border-bottom: 1 px solid lightgrey;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+} 
+.share a{
+    background: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+    border: 5px solid black;
+}
+.share a:hover{
+    background: white;
+    border: white;
+    border: 1px solid red;
+    color: red;
+}
