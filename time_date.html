@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date And Time</title>
+    <style>
+    .body{
+            background-color: aquamarine;
+            margin: 0px;
+            padding: 0px;
+        }
+    .num1{
+        width: 400px;
+        height: 300px;
+        background-color:rgb(168, 45, 45);
+        margin-left: 450px;
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 15px;
+        border-radius: 16px;
+        box-shadow: 5px 5px;
+        border: 3px solid black;
+        
+
+        }
+        .num2{
+            font-size: 20px;
+            border-radius: 10px;
+            font-weight: 700;
+            color: rgb(29, 46, 3);
+            text-shadow: 1px 1px;
+            box-shadow:3px 3px ;
+            background-color: cornsilk;
+        }
+        .num2:hover{
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body class="body">
+    <div class="num1">
+        <h1> My First Java Script</h1>
+
+        <button type="button" class="num2" onclick="document.getElementById('demo').innerHTML=Date()">Click Me To Display Date And Time </button>
+        <p id="demo"></p>
+    </div>
+
+</body>
+</html>
