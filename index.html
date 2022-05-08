@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index.html</title>
+    <title>object</title>
 </head>
 <body>
-    <h1>JavaScript Array:</h1>
-    <table>
-        <ul>
-            <li>BMW</li>
-            <li>Audi</li>
-            <li>Scoda</li>
-            <li>Benz</li>
-        </ul>
-    </table>
+    <h2>JavaScript Object</h2>
+    <p id="demo"></p>
+    <script>
+        const car = {
+            brand:"Hyndai",
+            type:"Verna",
+            model:"sx",
+            color:"white",
+            carname:function(){
+                return this.brand+" "+this.type+" "+this.model+" "+this.color;
+            }
+
+        }
+        document.getElementById("demo").innerHTML=car.carname();
+    </script>
     
 </body>
 </html>
