@@ -4,24 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>object</title>
+    <title>Feet to cm</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>JavaScript Object</h2>
-    <p id="demo"></p>
-    <script>
-        const car = {
-            brand:"Hyndai",
-            type:"Verna",
-            model:"sx",
-            color:"white",
-            carname:function(){
-                return this.brand+" "+this.type+" "+this.model+" "+this.color;
-            }
+    <form action="" id="calculator">
+        <h1>Unit Convertor</h1>
+        <div class="row">
+            <label for ="feet">Feet</label> <br><br> <input id="feet"><br><br>
+        </div>
+        <div class="row">
+            <input type="submit" value="Conver to cm" id="button">
+        </div>
+        <div id="result"></div>
+    </form>
 
-        }
-        document.getElementById("demo").innerHTML=car.carname();
-    </script>
-    
+    <script src="script.js"></script>
 </body>
 </html>
