@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>async2</title>
+</head>
+<body>
+    <h2>JavaScript Asynchronus / Await</h2>
+    <p>Wait 3 secondes (3000 milisecondes) for this page to change</p>
+    <h1 id="demo"></h1>
+    <script>
+        async function myDisplay(){
+            let myPromise= new Promise(function(resolve){
+                setTimeout(function(){resolve("I LOVE YOU !!!...");},3000);
+            });
+            document.getElementById("demo").innerHTML= await myPromise;
+        }
+        myDisplay();
+
+    </script>
+    
+</body>
+</html>
