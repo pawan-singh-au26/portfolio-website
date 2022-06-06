@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+html{
+    font-size: 60.5%;
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(159, 245, 245);
+}
+.inner-div{
+    width: 40vw;
+    background-color: #fbf9f9;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem -0.7rem rgba(0,0,0,0.3);
+}
+.inner-div h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 1rem 0 4rem 0;
+}
+.inner-div li{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+input {
+    cursor: pointer;
+}
+#submit, .btn{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 900;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgb(132, 169, 239);
+    margin-top: 4rem;
+    cursor: pointer;
+
+}
+#submit:hover{
+    background-color: rgb(5, 54, 144);
+}
+#showScore{
+    background-color: rgb(242, 234, 234);
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 1rem 1rem 1rem -0.7rem rgba(0,0,0,0.2);
+    
+
+}
+#showScore h3{
+font-size: 3rem;
+text-align: center;
+
+}
+#showScore .btn{
+    margin-top: 2rem;
+    background-color: rgb(11, 215, 164);
+    color: rgb(243, 232, 232);
+}
+#showScore .btn:hover{
+    background-color: rgb(7, 140, 82);
+}
+.scoreArea{
+    display: none;
+}
